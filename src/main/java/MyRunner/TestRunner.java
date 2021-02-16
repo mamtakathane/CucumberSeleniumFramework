@@ -18,6 +18,7 @@ import cucumber.api.junit.Cucumber;
 			)
 	 
 	public class TestRunner {
+		int i = 10;
 	 
 	}
 	
