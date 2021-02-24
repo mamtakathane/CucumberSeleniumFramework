@@ -1,5 +1,9 @@
 package stepDefinitions;
 
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -12,6 +16,7 @@ public class TaggedHooksStepDefinition {
 	public void setUP(){
 		System.out.println("launch FF");
 		System.out.println("Enter URL for Free CRM APP");
+		WebDriver driver=new FirefoxDriver();
 	}
 
 	@After(order=0)
